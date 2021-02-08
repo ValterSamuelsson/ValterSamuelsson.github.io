@@ -44,10 +44,6 @@ a:link {
   text-decoration: none;
 }
 
-/* visited link */
-a:visited {
-  color: red;
-}
 
 /* mouse over link */
 a:hover {
@@ -56,5 +52,5 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: blue;
+  color: red;
 }
