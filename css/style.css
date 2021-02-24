@@ -14,12 +14,12 @@ background-color: white;
 nav{
 height: 50px;
 width: 100%;
-background-color: #02a88f;
+background-color: blue;
  }
 main{
   height: 400px;
   width: 60%;
-  background-color: #03acfd;
+  background-color: gray;
 }
 aside{
   height: 400px;
