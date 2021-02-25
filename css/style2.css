@@ -1,0 +1,91 @@
+
+body{
+background-image: url(bilder/electornic.jpg);
+
+background-size: cover;
+position: sticky;
+
+}
+
+#wrapper {
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+header{
+height: 80px;
+width: 100%;
+color: white;
+background-color: black;
+text-align: center;
+text-shadow: 2px 2px 5px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 40px;
+outline-width: thick;
+outline-style: double;
+outline-color: white;
+position: fixed;
+}
+nav{
+height: 200px;
+width: 100%;
+background-color: inherits;
+text-align: center;
+font-size: 30px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+main{
+  height: 900px;
+  width: 100%;
+  background-color: inherit;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  position: static;
+  list-style-type: circle;
+
+
+}
+
+footer{
+  height: 100px;
+  width: 100%;
+  background-color: gray;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+
+}
+#container{
+  display:flex;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: black;
+  text-decoration: underline;
+}

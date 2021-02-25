@@ -1,42 +1,68 @@
+body{
+background-image: url(bilder/bakgrund.jpg);
+
+background-size: cover;
+}
 #wrapper {
 width: 100%;
 margin-left: auto;
 margin-right: auto;
-
 
 }
 
 header{
 height: 100px;
 width: 100%;
-background-color: white;
+background-color: inherit;
+color: black;
+text-align: center;
+text-shadow: 2px 2px 5px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 40px;
+outline-width: medium;
+outline-style: ridge;
+outline-color: black;
 }
 nav{
-height: 50px;
+height: 100px;
 width: 100%;
-background-color: blue;
+background-color: inherit;
+text-align: center;
+font-size: 30px;
+font-family: Arial, Helvetica, sans-serif;
+
  }
+
+
 main{
-  height: 400px;
-  width: 60%;
-  background-color: gray;
+  height: 350px;
+  width: 20%;
+  background-color: inherit;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: circle;
+  font-size: 30px;
 }
 aside{
-  height: 400px;
-  width: 40%;
-  background-color: pink;
+  height: 350px;
+  width: 80%;
+  background-color: inherit;
+  font-family: Arial, Helvetica, sans-serif;
 
 }
 footer{
   height: 50px;
   width: 100%;
-  background-color: #02a88f;
+  background-color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  outline-width: thick;
+  outline-style: solid;
+  outline-color: black;
 
 }
 #container{
   display:flex;
 }
-
 
 /* unvisited link */
 a:link {
@@ -44,13 +70,20 @@ a:link {
   text-decoration: none;
 }
 
+/* visited link */
+a:visited {
+  color: black;
+  text-decoration: none;
+}
 
 /* mouse over link */
 a:hover {
-  color: gray;
+  color: black;
+  text-decoration: underline;
 }
 
 /* selected link */
 a:active {
-  color: red;
+  color: black;
+  text-decoration: underline;
 }
