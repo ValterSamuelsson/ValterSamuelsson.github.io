@@ -1,7 +1,5 @@
 body{
-background-image: url(bilder/bakgrund.jpg);
 
-background-size: cover;
 }
 #wrapper {
 width: 100%;
@@ -36,28 +34,31 @@ font-family: Arial, Helvetica, sans-serif;
 
 main{
   height: 350px;
-  width: 20%;
-  background-color: inherit;
+  width: 15%;
+  background-color: beige;
+  color: black;
   font-family: Arial, Helvetica, sans-serif;
   list-style-type: circle;
-  font-size: 30px;
+  font-size: 20px;
 }
 aside{
-  height: 350px;
-  width: 80%;
+  height: 400px;
+  width: 85%;
   background-color: inherit;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  padding: 15px;
+
 
 }
 footer{
-  height: 50px;
+  height: 100px;
   width: 100%;
   background-color: gray;
+  color: black;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  outline-width: thick;
-  outline-style: solid;
-  outline-color: black;
+  position: static;
 
 }
 #container{
@@ -86,4 +87,29 @@ a:hover {
 a:active {
   color: black;
   text-decoration: underline;
+}
+
+.img-cpu{
+height: 300px;
+  float: right;
+}
+.img-chassi{
+  height: 300px;
+  float: right;
+}
+.img-nätaggregat{
+  height: 300px;
+  float: right;
+}
+.img-ramminne{
+  height: 200px;
+  float: right;
+}
+.img-moderkort{
+  height: 300px;
+  float: right;
+}
+.img-grafikkort{
+  height: 200px;
+  float: right;
 }

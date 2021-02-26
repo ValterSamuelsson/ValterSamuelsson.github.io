@@ -1,9 +1,6 @@
 
 body{
-background-image: url(bilder/electornic.jpg);
-
-background-size: cover;
-position: sticky;
+background-image: url(css/bilder/beige.png);
 
 }
 
@@ -31,18 +28,19 @@ position: fixed;
 nav{
 height: 200px;
 width: 100%;
-background-color: inherits;
-text-align: center;
-font-size: 30px;
+background-color: #FFF8DC;
+color: black;
+font-size: 25px;
 font-family: Arial, Helvetica, sans-serif;
+text-align: center;
 }
 
 
 
 main{
   height: 900px;
-  width: 100%;
-  background-color: inherit;
+  width: 30%;
+  background-color: #FFF8DC;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 40px;
@@ -51,7 +49,17 @@ main{
 
 
 }
+aside{
+  height: 900px;
+  width: 70%;
+  background-color: #FFF8DC;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
 
+
+
+
+}
 footer{
   height: 100px;
   width: 100%;
@@ -88,4 +96,24 @@ a:hover {
 a:active {
   color: black;
   text-decoration: underline;
+}
+
+.img-cpu{
+height: 100px;
+}
+
+.img-grafikkort{
+  height: 100px;
+}
+.img-moderkort{
+  height: 100px;
+}
+.img-ramminne{
+  height: 100px;
+}
+.img-nätaggregat{
+  height: 100px;
+}
+.img-chassi{
+  height: 100px;
 }
