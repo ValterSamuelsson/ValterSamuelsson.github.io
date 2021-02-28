@@ -33,7 +33,7 @@ font-family: Arial, Helvetica, sans-serif;
 
 
 main{
-  height: 350px;
+  height: 400px;
   width: 15%;
   background-color: beige;
   color: black;
@@ -112,5 +112,9 @@ height: 300px;
 }
 .img-grafikkort{
   height: 200px;
+  float: right;
+}
+.img-hårddisk{
+  height: 300px;
   float: right;
 }
