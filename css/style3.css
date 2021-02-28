@@ -1,9 +1,6 @@
-
 body{
-background-image: url(css/bilder/beige.png);
 
 }
-
 #wrapper {
 width: 100%;
 margin-left: auto;
@@ -12,51 +9,47 @@ margin-right: auto;
 }
 
 header{
-height: 80px;
+height: 100px;
 width: 100%;
-color: white;
-background-color: black;
+background-color: white;
+color: black;
 text-align: center;
 text-shadow: 2px 2px 5px;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 40px;
-outline-width: thick;
-outline-style: double;
-outline-color: white;
-position: fixed;
+outline-width: medium;
+outline-style: ridge;
+outline-color: black;
 }
 nav{
-height: 200px;
+height: 100px;
 width: 100%;
-background-color: #A5FCF7;
-color: black;
-font-size: 25px;
-font-family: Arial, Helvetica, sans-serif;
+background-color: white;
 text-align: center;
-}
+font-size: 30px;
+font-family: Arial, Helvetica, sans-serif;
 
+ }
 
 
 main{
-  height: 1050px;
-  width: 30%;
-  background-color: #A5FCF7;
-  color: white;
+  height: 400px;
+  width: 5%;
+  background-color: white;
+  color: black;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 40px;
-  position: static;
   list-style-type: circle;
-
-
+  font-size: 20px;
+  padding: 15px;
 }
 aside{
-  height: 1050px;
-  width: 70%;
-  background-color: #A5FCF7;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-
-
+  height: 400px;
+  width: 95%;
+  background-color: inherit;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  padding: 15px;
+  text-align: center;
 
 
 }
@@ -67,7 +60,7 @@ footer{
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-
+  position: static;
 
 }
 #container{
@@ -96,27 +89,4 @@ a:hover {
 a:active {
   color: black;
   text-decoration: underline;
-}
-
-.img-cpu{
-height: 100px;
-}
-
-.img-grafikkort{
-  height: 100px;
-}
-.img-moderkort{
-  height: 100px;
-}
-.img-ramminne{
-  height: 100px;
-}
-.img-nätaggregat{
-  height: 100px;
-}
-.img-chassi{
-  height: 100px;
-}
-.img-hårddisk{
-  height: 100px;
 }
